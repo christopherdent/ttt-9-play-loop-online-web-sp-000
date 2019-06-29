@@ -44,7 +44,7 @@ end
 
 def play(board)
 counter = 0
-while counter += 1 
+while counter < 9
   loop.do
     turn(board)
     until counter = 8
