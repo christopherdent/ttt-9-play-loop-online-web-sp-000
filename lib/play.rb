@@ -47,7 +47,7 @@ counter = 0
 while counter < 9
   loop.do
     turn(board)
-    until counter = 8
+    counter = counter + 1
   end
   
   
